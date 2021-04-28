@@ -6,13 +6,12 @@
     android:layout_height="match_parent"
     android:padding="20dp"
     android:orientation="vertical"
-    android:background="#00897B"
+    android:background="#F4511E"
     android:gravity="center"
-    tools:context=".MainActivity">
-
+    tools:context=".SignUpActivity">
 
     <EditText
-        android:id="@+id/signInEmailEditTextId"
+        android:id="@+id/signUpEmailEditTextId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Email"
@@ -25,7 +24,7 @@
 
 
     <EditText
-        android:id="@+id/signInPasswordEditTextId"
+        android:id="@+id/signUpPasswordEditTextId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
@@ -37,22 +36,22 @@
         />
 
     <Button
-        android:id="@+id/signInButtonId"
+        android:id="@+id/signUpButtonId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sign In"
+        android:text="Sign Up"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_marginTop="20dp"
         />
 
     <TextView
-        android:id="@+id/signUpTextViewId"
+        android:id="@+id/signInTextViewId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Are you not registered ? SignUp"
+        android:text="Are you Already registered ? SignIn"
         android:textColor="@color/white"
-        android:gravity="center"
         android:textStyle="italic"
+        android:gravity="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:layout_marginTop="20dp"
         />
@@ -64,7 +63,6 @@
         android:layout_gravity="center"
         android:visibility="gone"
         />
-
 
 
 </LinearLayout>
