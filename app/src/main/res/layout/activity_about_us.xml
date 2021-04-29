@@ -7,7 +7,7 @@
     android:background="@color/teal_700"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="27dp"
+    android:padding="26dp"
     tools:context=".AboutUsActivity">
 
 
